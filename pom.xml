@@ -7,7 +7,7 @@
     </parent>
 
     <artifactId>strawboss</artifactId>
-    <version>1.3</version>
+    <version>1.4-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <name>Jenkins Strawboss plugin</name>
     <description>Extended external job monitor</description>
@@ -25,7 +25,7 @@
         <connection>scm:git:ssh://github.com/jenkinsci/strawboss-plugin.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/jenkinsci/strawboss-plugin.git</developerConnection>
         <url>https://github.com/jenkinsci/strawboss-plugin</url>
-      <tag>strawboss-1.3</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
